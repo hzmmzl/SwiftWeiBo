@@ -10,10 +10,17 @@
 		910D10BB1EA9F89400F0C1D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910D10BA1EA9F89400F0C1D2 /* AppDelegate.swift */; };
 		910D10BD1EA9F89400F0C1D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910D10BC1EA9F89400F0C1D2 /* ViewController.swift */; };
 		910D10C01EA9F89400F0C1D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 910D10BE1EA9F89400F0C1D2 /* Main.storyboard */; };
-		910D10C21EA9F89400F0C1D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 910D10C11EA9F89400F0C1D2 /* Assets.xcassets */; };
 		910D10C51EA9F89400F0C1D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 910D10C31EA9F89400F0C1D2 /* LaunchScreen.storyboard */; };
 		910D10D01EA9F89400F0C1D2 /* TestSwiftWeiBoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910D10CF1EA9F89400F0C1D2 /* TestSwiftWeiBoTests.swift */; };
 		910D10DB1EA9F89400F0C1D2 /* TestSwiftWeiBoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910D10DA1EA9F89400F0C1D2 /* TestSwiftWeiBoUITests.swift */; };
+		910D10EC1EA9FA7800F0C1D2 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910D10EB1EA9FA7800F0C1D2 /* MainTabBarViewController.swift */; };
+		910D10F41EA9FB4C00F0C1D2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910D10F31EA9FB4C00F0C1D2 /* HomeViewController.swift */; };
+		910D10F61EA9FB9200F0C1D2 /* MainNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910D10F51EA9FB9200F0C1D2 /* MainNavController.swift */; };
+		910D10F81EA9FBD900F0C1D2 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910D10F71EA9FBD900F0C1D2 /* BaseViewController.swift */; };
+		910D10FA1EA9FC0200F0C1D2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910D10F91EA9FC0200F0C1D2 /* ProfileViewController.swift */; };
+		910D10FC1EA9FC1300F0C1D2 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910D10FB1EA9FC1300F0C1D2 /* DiscoverViewController.swift */; };
+		910D10FE1EA9FC2200F0C1D2 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910D10FD1EA9FC2200F0C1D2 /* MessageViewController.swift */; };
+		914E71E21EB0A0210006E53B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 914E71E11EB0A0210006E53B /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +45,6 @@
 		910D10BA1EA9F89400F0C1D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		910D10BC1EA9F89400F0C1D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		910D10BF1EA9F89400F0C1D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		910D10C11EA9F89400F0C1D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		910D10C41EA9F89400F0C1D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		910D10C61EA9F89400F0C1D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		910D10CB1EA9F89400F0C1D2 /* TestSwiftWeiBoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSwiftWeiBoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +53,14 @@
 		910D10D61EA9F89400F0C1D2 /* TestSwiftWeiBoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSwiftWeiBoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		910D10DA1EA9F89400F0C1D2 /* TestSwiftWeiBoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSwiftWeiBoUITests.swift; sourceTree = "<group>"; };
 		910D10DC1EA9F89400F0C1D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		910D10EB1EA9FA7800F0C1D2 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		910D10F31EA9FB4C00F0C1D2 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		910D10F51EA9FB9200F0C1D2 /* MainNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavController.swift; sourceTree = "<group>"; };
+		910D10F71EA9FBD900F0C1D2 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		910D10F91EA9FC0200F0C1D2 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		910D10FB1EA9FC1300F0C1D2 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		910D10FD1EA9FC2200F0C1D2 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		914E71E11EB0A0210006E53B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +111,15 @@
 		910D10B91EA9F89400F0C1D2 /* TestSwiftWeiBo */ = {
 			isa = PBXGroup;
 			children = (
-				910D10BA1EA9F89400F0C1D2 /* AppDelegate.swift */,
-				910D10BC1EA9F89400F0C1D2 /* ViewController.swift */,
+				910D10EA1EA9F9D400F0C1D2 /* Main */,
+				910D10EE1EA9FAC500F0C1D2 /* HomeViewController */,
+				910D10F11EA9FAF100F0C1D2 /* ProfileViewController */,
+				910D10F01EA9FAEE00F0C1D2 /* DiscoverViewController */,
+				910D10EF1EA9FAEA00F0C1D2 /* MessageViewController */,
+				910D10F21EA9FB1A00F0C1D2 /* Other */,
 				910D10BE1EA9F89400F0C1D2 /* Main.storyboard */,
-				910D10C11EA9F89400F0C1D2 /* Assets.xcassets */,
 				910D10C31EA9F89400F0C1D2 /* LaunchScreen.storyboard */,
+				914E71E11EB0A0210006E53B /* Assets.xcassets */,
 				910D10C61EA9F89400F0C1D2 /* Info.plist */,
 			);
 			path = TestSwiftWeiBo;
@@ -123,6 +141,57 @@
 				910D10DC1EA9F89400F0C1D2 /* Info.plist */,
 			);
 			path = TestSwiftWeiBoUITests;
+			sourceTree = "<group>";
+		};
+		910D10EA1EA9F9D400F0C1D2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				910D10EB1EA9FA7800F0C1D2 /* MainTabBarViewController.swift */,
+				910D10F51EA9FB9200F0C1D2 /* MainNavController.swift */,
+				910D10F71EA9FBD900F0C1D2 /* BaseViewController.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		910D10EE1EA9FAC500F0C1D2 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				910D10F31EA9FB4C00F0C1D2 /* HomeViewController.swift */,
+			);
+			name = HomeViewController;
+			sourceTree = "<group>";
+		};
+		910D10EF1EA9FAEA00F0C1D2 /* MessageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				910D10FD1EA9FC2200F0C1D2 /* MessageViewController.swift */,
+			);
+			name = MessageViewController;
+			sourceTree = "<group>";
+		};
+		910D10F01EA9FAEE00F0C1D2 /* DiscoverViewController */ = {
+			isa = PBXGroup;
+			children = (
+				910D10FB1EA9FC1300F0C1D2 /* DiscoverViewController.swift */,
+			);
+			name = DiscoverViewController;
+			sourceTree = "<group>";
+		};
+		910D10F11EA9FAF100F0C1D2 /* ProfileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				910D10F91EA9FC0200F0C1D2 /* ProfileViewController.swift */,
+			);
+			name = ProfileViewController;
+			sourceTree = "<group>";
+		};
+		910D10F21EA9FB1A00F0C1D2 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				910D10BA1EA9F89400F0C1D2 /* AppDelegate.swift */,
+				910D10BC1EA9F89400F0C1D2 /* ViewController.swift */,
+			);
+			name = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				910D10C51EA9F89400F0C1D2 /* LaunchScreen.storyboard in Resources */,
-				910D10C21EA9F89400F0C1D2 /* Assets.xcassets in Resources */,
+				914E71E21EB0A0210006E53B /* Assets.xcassets in Resources */,
 				910D10C01EA9F89400F0C1D2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +328,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				910D10F61EA9FB9200F0C1D2 /* MainNavController.swift in Sources */,
+				910D10FE1EA9FC2200F0C1D2 /* MessageViewController.swift in Sources */,
+				910D10EC1EA9FA7800F0C1D2 /* MainTabBarViewController.swift in Sources */,
 				910D10BD1EA9F89400F0C1D2 /* ViewController.swift in Sources */,
 				910D10BB1EA9F89400F0C1D2 /* AppDelegate.swift in Sources */,
+				910D10FA1EA9FC0200F0C1D2 /* ProfileViewController.swift in Sources */,
+				910D10FC1EA9FC1300F0C1D2 /* DiscoverViewController.swift in Sources */,
+				910D10F41EA9FB4C00F0C1D2 /* HomeViewController.swift in Sources */,
+				910D10F81EA9FBD900F0C1D2 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +581,7 @@
 				910D10E11EA9F89400F0C1D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		910D10E21EA9F89400F0C1D2 /* Build configuration list for PBXNativeTarget "TestSwiftWeiBoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +590,7 @@
 				910D10E41EA9F89400F0C1D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		910D10E51EA9F89400F0C1D2 /* Build configuration list for PBXNativeTarget "TestSwiftWeiBoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +599,7 @@
 				910D10E71EA9F89400F0C1D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
